@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pixel Positions</title>
     @vite(['resources/js/app.js', 'resources/css/app.css'])
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script>
 </head>
 
 <body class="bg-[#060606]">
