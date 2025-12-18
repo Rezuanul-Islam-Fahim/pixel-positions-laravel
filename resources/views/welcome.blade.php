@@ -1,3 +1,11 @@
 <x-layout>
-    {{-- This is demo page --}}
+    <section>
+        <h3 class="font-bold text-xl">Top Jobs</h3>
+
+        <div class="grid lg:grid-cols-3 gap-6 mt-6">
+            <x-job-card></x-job-card>
+            <x-job-card></x-job-card>
+            <x-job-card></x-job-card>
+        </div>
+    </section>
 </x-layout>
