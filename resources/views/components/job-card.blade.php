@@ -12,7 +12,7 @@
             <x-job-tag>Tag 2</x-job-tag>
             <x-job-tag>Tag 3</x-job-tag>
         </div>
-        <img src="https://placehold.co/42x42" alt="" class="rounded-xl">
+        <x-job-logo :width="42" />
     </div>
 
 </div>
