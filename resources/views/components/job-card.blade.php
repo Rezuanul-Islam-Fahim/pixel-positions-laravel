@@ -1,8 +1,9 @@
-<div class="bg-white/5 p-4 rounded-xl">
+<x-panel class="p-4">
     <span class="self-start text-white/80">Laracast</span>
 
     <div class="text-center p-5">
-        <h2 class="text-xl font-bold">Full Stack Laravel Developer</h2>
+        <h2 class="text-xl font-bold group-hover:text-blue-800 transition-colors duration-300">Full Stack Laravel
+            Developer</h2>
         <p class="mt-2 text-sm">Full time - From $60000</p>
     </div>
 
@@ -15,4 +16,4 @@
         <x-job-logo :width="42" />
     </div>
 
-</div>
+</x-panel>

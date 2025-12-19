@@ -1,9 +1,10 @@
-<div class="bg-white/5 p-5 flex flex-row rounded-xl">
+<x-panel class="p-5 flex flex-row">
     <div class="flex flex-row flex-1">
         <x-job-logo />
         <div class="flex flex-col ml-5">
             <span class="text-sm text-white/80">GovExec</span>
-            <h3 class="text-xl font-semibold mt-2">Full Stack Laravel Developer</h3>
+            <h3 class="text-xl font-semibold mt-2 group-hover:text-blue-800 transition-colors duration-300">Full Stack
+                Laravel Developer</h3>
             <span class="text-sm text-white/80 mt-auto font-semibold">Full Time - From $60000</span>
         </div>
     </div>
@@ -19,4 +20,4 @@
             <x-job-tag>Tag 3</x-job-tag>
         </div>
     </div>
-</div>
+</x-panel>
