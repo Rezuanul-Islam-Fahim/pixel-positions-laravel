@@ -1,17 +1,20 @@
-<x-panel class="p-4">
-    <span class="self-start text-white/80">Laracast</span>
+@props(['job'])
+
+<x-panel class="p-4 flex flex-col h-full">
+    <span class="self-start text-white/80">{{ $job->employer->name }}</span>
 
     <div class="text-center p-5">
-        <h2 class="text-xl font-bold group-hover:text-blue-800 transition-colors duration-300">Full Stack Laravel
-            Developer</h2>
-        <p class="mt-2 text-sm">Full time - From $60000</p>
+        <h2 class="text-xl font-bold group-hover:text-blue-800 transition-colors duration-300">
+            {{ $job->title }}
+        </h2>
+        <p class="mt-2 text-sm">{{ $job->schedule }} - From {{ $job->salary }}</p>
     </div>
 
-    <div class="flex justify-between items-center">
-        <div class="space-x-1">
-            <x-job-tag size="small">Tag 1</x-job-tag>
-            <x-job-tag size="small">Tag 2</x-job-tag>
-            <x-job-tag size="small">Tag 3</x-job-tag>
+    <div class="flex justify-between items-center mt-auto">
+        <div class="flex flex-wrap gap-1">
+            @foreach ($job->tags as $tag)
+                <x-job-tag size="small" :tag="$tag" />
+            @endforeach
         </div>
         <x-job-logo :width="42" />
     </div>
