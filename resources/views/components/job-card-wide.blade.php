@@ -15,10 +15,11 @@
 
     <div class="flex flex-col items-end">
         <div class="flex flex-row space-x-2">
-            {{-- <x-job-tag size="small">{{ $job->schedule }}</x-job-tag>
-            <x-job-tag size="small">22h</x-job-tag> --}}
+            <span class="border border-white/20 rounded-full px-3 py-1 text-xs">
+                {{ $job->schedule }}
+            </span>
         </div>
-        <div class="flex flex-row mt-16 space-x-2">
+        <div class="flex flex-row mt-auto space-x-2">
             @foreach ($job->tags as $tag)
                 <x-job-tag size="small" :tag="$tag" />
             @endforeach
