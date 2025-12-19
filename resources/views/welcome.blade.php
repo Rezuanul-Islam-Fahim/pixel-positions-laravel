@@ -14,14 +14,14 @@
             <x-section-heading>Tags</x-section-heading>
 
             <div class="block mt-6 space-x-4">
-                <x-job-tag-xl>Tag 1</x-job-tag-xl>
-                <x-job-tag-xl>Tag 2</x-job-tag-xl>
-                <x-job-tag-xl>Tag 3</x-job-tag-xl>
-                <x-job-tag-xl>Tag 4</x-job-tag-xl>
-                <x-job-tag-xl>Tag 5</x-job-tag-xl>
-                <x-job-tag-xl>Tag 6</x-job-tag-xl>
-                <x-job-tag-xl>Tag 7</x-job-tag-xl>
-                <x-job-tag-xl>Tag 8</x-job-tag-xl>
+                <x-job-tag>Tag 1</x-job-tag>
+                <x-job-tag>Tag 2</x-job-tag>
+                <x-job-tag>Tag 3</x-job-tag>
+                <x-job-tag>Tag 4</x-job-tag>
+                <x-job-tag>Tag 5</x-job-tag>
+                <x-job-tag>Tag 6</x-job-tag>
+                <x-job-tag>Tag 7</x-job-tag>
+                <x-job-tag>Tag 8</x-job-tag>
             </div>
         </section>
 

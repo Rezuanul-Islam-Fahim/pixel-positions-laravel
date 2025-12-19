@@ -11,13 +11,13 @@
 
     <div class="flex flex-col items-end">
         <div class="flex flex-row space-x-2">
-            <x-job-tag>Remote</x-job-tag>
-            <x-job-tag>22h</x-job-tag>
+            <x-job-tag size="small">Remote</x-job-tag>
+            <x-job-tag size="small">22h</x-job-tag>
         </div>
         <div class="flex flex-row mt-16 space-x-2">
-            <x-job-tag>Tag 1</x-job-tag>
-            <x-job-tag>Tag 2</x-job-tag>
-            <x-job-tag>Tag 3</x-job-tag>
+            <x-job-tag size="small">Tag 1</x-job-tag>
+            <x-job-tag size="small">Tag 2</x-job-tag>
+            <x-job-tag size="small">Tag 3</x-job-tag>
         </div>
     </div>
 </x-panel>

@@ -9,9 +9,9 @@
 
     <div class="flex justify-between items-center">
         <div class="space-x-1">
-            <x-job-tag>Tag 1</x-job-tag>
-            <x-job-tag>Tag 2</x-job-tag>
-            <x-job-tag>Tag 3</x-job-tag>
+            <x-job-tag size="small">Tag 1</x-job-tag>
+            <x-job-tag size="small">Tag 2</x-job-tag>
+            <x-job-tag size="small">Tag 3</x-job-tag>
         </div>
         <x-job-logo :width="42" />
     </div>
