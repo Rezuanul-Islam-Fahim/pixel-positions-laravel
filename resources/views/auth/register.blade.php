@@ -2,7 +2,7 @@
     <div class="text-center">
         <h2 class="text-3xl font-bold mb-10">Register</h2>
 
-        <x-form.form method="POST">
+        <x-form.form method="POST" action="/register" enctype="multipart/form-data">
             <x-form.field name="name" label="Name" />
             <x-form.field name="email" label="Email" type="email" />
             <x-form.field name="password" label="Password" type="password" />
