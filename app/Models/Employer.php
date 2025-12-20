@@ -10,6 +10,8 @@ class Employer extends Model
     /** @use HasFactory<\Database\Factories\EmployerFactory> */
     use HasFactory;
 
+    protected $fillable = ['name', 'logo'];
+
     public function jobs()
     {
         return $this->hasMany(Job::class);
