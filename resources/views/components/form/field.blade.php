@@ -2,5 +2,5 @@
 
 <div class="flex flex-col text-left">
     <x-form.label :name="$name">{{ $label }}</x-form.label>
-    <x-form.input :type="$type" />
+    <x-form.input :name="$name" :type="$type" />
 </div>
