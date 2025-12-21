@@ -1,6 +1,6 @@
 <x-layout>
     <div class="text-center">
-        <h2 class="text-3xl font-bold mb-10">Register</h2>
+        <x-general-heading>Register</x-general-heading>
 
         <x-form.form method="POST" action="/register" enctype="multipart/form-data">
             <x-form.field name="name" label="Name" />
