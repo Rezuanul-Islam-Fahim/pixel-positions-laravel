@@ -4,9 +4,11 @@
     <span class="self-start text-white/80">{{ $job->employer->name }}</span>
 
     <div class="text-center p-5">
-        <h2 class="text-xl font-bold group-hover:text-blue-800 transition-colors duration-300">
-            {{ $job->title }}
-        </h2>
+        <a href="{{ $job->url }}" target="_blank">
+            <h2 class="text-xl font-bold group-hover:text-blue-800 transition-colors duration-300">
+                {{ $job->title }}
+            </h2>
+        </a>
         <p class="mt-2 text-sm">{{ $job->schedule }} - From {{ $job->salary }}</p>
     </div>
 

@@ -5,9 +5,11 @@
         <x-job-logo />
         <div class="flex flex-col ml-5">
             <span class="text-sm text-white/80">{{ $job->employer->name }}</span>
-            <h3 class="text-xl font-semibold mt-2 group-hover:text-blue-800 transition-colors duration-300">
-                {{ $job->title }}
-            </h3>
+            <a href="{{ $job->url }}" target="_blank">
+                <h3 class="text-xl font-semibold mt-2 group-hover:text-blue-800 transition-colors duration-300">
+                    {{ $job->title }}
+                </h3>
+            </a>
             <span class="text-sm text-white/80 mt-auto font-semibold">{{ $job->schedule }} - From
                 {{ $job->salary }}</span>
         </div>
