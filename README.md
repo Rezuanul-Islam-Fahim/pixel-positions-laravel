@@ -1,3 +1,5 @@
+# Pixel Positions Laravel
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -6,6 +8,99 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+
+A modern job board application built with Laravel 12, featuring job listings, employer profiles, and tagging functionality.
+
+## Features
+
+- 🎯 Job Listings
+- 🏢 Employer Profiles
+- 🏷️ Job Tagging System
+- 👥 User Authentication
+- 🔍 Search & Filter
+- 📱 Responsive Design
+
+## Deployment
+
+### Deploy to VPS with Dokploy
+
+This project is ready for deployment to your VPS using Dokploy. See our comprehensive deployment guides:
+
+- **[Quick Start Guide](DOKPLOY.md)** - Fast deployment in 7 steps
+- **[Complete Deployment Guide](DEPLOYMENT.md)** - Detailed instructions with troubleshooting
+
+#### Quick Deployment Steps:
+
+1. Install Dokploy on your VPS:
+   ```bash
+   curl -sSL https://dokploy.com/install.sh | sh
+   ```
+
+2. Access Dokploy at `http://your-vps-ip:3000`
+
+3. Create a project and add this repository
+
+4. Configure environment variables (see [DOKPLOY.md](DOKPLOY.md))
+
+5. Deploy and enjoy! 🚀
+
+## Local Development
+
+### Prerequisites
+
+- PHP 8.2 or higher
+- Composer
+- Node.js & NPM
+- MySQL 8.0
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Rezuanul-Islam-Fahim/pixel-positions-laravel.git
+   cd pixel-positions-laravel
+   ```
+
+2. Install dependencies:
+   ```bash
+   composer install
+   npm install
+   ```
+
+3. Set up environment:
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
+   ```
+
+4. Configure your database in `.env`
+
+5. Run migrations:
+   ```bash
+   php artisan migrate
+   ```
+
+6. Build assets:
+   ```bash
+   npm run build
+   ```
+
+7. Start development server:
+   ```bash
+   php artisan serve
+   ```
+
+Visit `http://localhost:8000` in your browser.
+
+## Docker Development
+
+You can also run the application locally using Docker:
+
+```bash
+docker-compose up -d
+```
+
+The application will be available at `http://localhost:8000`
 
 ## About Laravel
 
