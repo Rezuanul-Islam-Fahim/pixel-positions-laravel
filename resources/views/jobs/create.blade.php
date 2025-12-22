@@ -7,8 +7,8 @@
             <x-form.field name="salary" label="Salary" placeholder="$50000" />
             <x-form.field name="location" label="Location" placeholder="Winter Park, Florida" />
             <x-form.select name="schedule" label="Schedule">
-                <option>Part Time</option>
-                <option>Full Time</option>
+                <option value="Part Time">Part Time</option>
+                <option value="Full Time">Full Time</option>
             </x-form.select>
             <x-form.field name="url" label="Url" placeholder="http://example.com/image.png" />
             <x-form.checkbox name="featured" label="Featured (Costs Extra)" />
