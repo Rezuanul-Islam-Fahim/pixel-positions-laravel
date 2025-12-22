@@ -1,4 +1,4 @@
-@props(['type', 'name'])
+@props(['type' => 'text', 'name'])
 
 <input
     {{ $attributes([

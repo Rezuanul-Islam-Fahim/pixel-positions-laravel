@@ -1,11 +1,11 @@
 <x-layout>
     <div class="space-y-12">
-        <section class="text-center py-5">
+        <section class="text-center pt-5">
             <h2 class="font-bold text-4xl mb-8">Let's Find You a Great Job</h2>
-            <form action="">
-                <input type="text" placeholder="Web developer..."
-                    class="px-4 py-3.5 rounded-xl bg-white/10 w-full max-w-2xl border border-white/10">
-            </form>
+
+            <x-form.form action="/search">
+                <x-form.input name="q" placeholder="Web developer..." />
+            </x-form.form>
         </section>
         <section>
             <x-section-heading>Top Jobs</x-section-heading>
