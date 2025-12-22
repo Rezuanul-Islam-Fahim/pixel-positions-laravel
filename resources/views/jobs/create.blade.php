@@ -13,7 +13,7 @@
             <x-form.field name="url" label="Url" placeholder="http://example.com/image.png" />
             <x-form.checkbox name="featured" label="Featured (Costs Extra)" />
             <x-form.divider />
-            <x-form.field name="tags" label="Tags (comma separated)" placeholder="laracasts, video, php" />
+            <x-form.field name="tags" label="Tags (comma separated)" placeholder="laracasts,video,php" />
             <x-form.button class="mt-3" label="Publish" />
         </x-form.form>
     </div>
