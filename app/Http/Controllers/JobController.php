@@ -19,4 +19,11 @@ class JobController extends Controller
             'tags' => $tags,
         ]);
     }
+
+    public function create()
+    {
+        return view('jobs.create');
+    }
+
+    public function store() {}
 }

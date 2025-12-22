@@ -45,7 +45,7 @@
             </div>
             <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 @auth
-                    <a href="#" aria-current="page"
+                    <a href="/jobs/create" aria-current="page"
                         class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">
                         Post a Job
                     </a>
