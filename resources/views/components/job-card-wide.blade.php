@@ -2,7 +2,7 @@
 
 <x-panel class="p-6 flex flex-row">
     <div class="flex flex-row flex-1">
-        <x-job-logo />
+        <x-job-logo :employer="$job->employer" />
         <div class="flex flex-col ml-5">
             <span class="text-sm text-white/80">{{ $job->employer->name }}</span>
             <a href="{{ $job->url }}" target="_blank">
